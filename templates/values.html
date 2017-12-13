@@ -1,0 +1,15 @@
+Hi <b>{{ long_name }}</b>.
+
+<br>
+<br>
+
+<br>
+<ul>
+{% for item in popular_fonts %}
+    <li> {{ item }} </li>
+{% endfor %}
+
+{% for item in hot_fonts %}
+    <li> {{ item }} </li>
+{% endfor %}
+</ul>
