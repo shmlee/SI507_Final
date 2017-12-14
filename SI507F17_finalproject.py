@@ -87,7 +87,7 @@ hottest_web_soup = Soup(hottest_web_html, 'html.parser')
 # Defining first class, table 1
 
 class Font:
-	def __init__(self, font_name, img, font_style, ):
+	def __init__(self, font_name, img, font_style):
 		self.font_name = font_name
 		self.img = img
 		self.font_style = font_style
@@ -194,6 +194,9 @@ for x in range(0,20):
 			font_style = open_font_soup2.find('div',{'id':'product_info'}).find_all('table')[0].text.strip()
 			font_style = "\n".join(filter(None, font_style.split("\n"))).strip()
 			font_style_list = font_style.split("\n")
+			count = len(font_style_list)
+
+
 			font_obj2 = Font(font_name, img, font_style_list)
 			my_top_fonts.add_font(font_obj2, 'trend')
 			
