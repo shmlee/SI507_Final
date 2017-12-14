@@ -2,12 +2,14 @@
 
 SI507F17_finalproject.py includes: Cached pages, Setting up databases, Visualization
 
-Two cached pages : Most popular fonts, Hot web fonts
-Website: https://www.fontsquirrel.com/
-Purpose: Getting comprehesive lists of fonts (only sans serif, serif, slab serif) that are popular and also trendy from this website 
-Contents : Font name, Image of the fonts, Font styles and number of the font styles
-Flask: http://localhost:8080/
-Help: Stella Choi and Kenji Kaneko 
+Important:
+
+- Two cached pages : Most popular fonts, Hot web fonts
+- Website: https://www.fontsquirrel.com/
+- Purpose: Getting comprehesive lists of fonts (only sans serif, serif, slab serif) that are popular and also trendy from this website 
+- Contents : Font name, Image of the fonts, Font styles and number of the font styles
+- Flask: http://localhost:8080/
+- Help: Stella Choi and Kenji Kaneko 
 
 Others:
 
